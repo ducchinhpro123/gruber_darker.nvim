@@ -163,7 +163,7 @@ local theme = lush(function()
     Conditional    { Statement }, --  if, then, else, endif, switch, etc.
     Repeat         { Statement }, --   for, do, while, etc.
     Label          { Statement }, --    case, default, etc.
-    Operator       { fg = brown }, -- "sizeof", "+", "*", etc.
+    Operator       { fg = white }, -- "sizeof", "+", "*", etc.
     Keyword        { Statement, gui = "bold" }, --  any other keyword
     Exception      { Statement }, --  try, catch, throw
 
