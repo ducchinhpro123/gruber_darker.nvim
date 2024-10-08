@@ -196,6 +196,20 @@ local theme = lush(function()
 
 		Todo({ fg = red_dark }), -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
+		-- Java specific highlights
+		javaKeyword({ Keyword }), -- Java keywords
+		javaType({ Type }), -- Java types
+		javaAnnotation({ fg = yellow, gui = "italic" }), -- Java annotations
+		javaComment({ Comment }), -- Java comments
+		javaDocComment({ fg = quartz, gui = "italic" }), -- JavaDoc comments
+		javaDocTag({ fg = green }), -- JavaDoc tags like @param, @return
+		javaMethod({ Function }), -- Java methods
+		javaString({ String }), -- Java strings
+		javaNumber({ Number }), -- Java numbers
+		javaBoolean({ Boolean }), -- Java booleans
+		javaOperator({ Operator }), -- Java operators
+		javaIdentifier({ Identifier }), -- Java identifiers
+
 		-- These groups are for the native LSP client. Some other LSP clients may
 		-- use these groups, or use their own. Consult your LSP client's
 		-- documentation.
