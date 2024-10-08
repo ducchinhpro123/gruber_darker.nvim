@@ -178,7 +178,7 @@ local theme = lush(function()
 		-- Structure      { }, --  struct, union, enum, etc.
 		-- Typedef        { }, --  A typedef
 
-		Special({ fg = quartz }), -- (preferred) any special symbol
+		-- Special({ fg = brown }), -- (preferred) any special symbol
 		-- SpecialChar    { }, --  special character in a constant
 		-- Tag            { }, --    you can use CTRL-] on this
 		-- Delimiter      { }, --  character that needs attention
